@@ -1,1 +1,50 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="https://boontar.live/iframe/boontar.css">
+    <!-- <link rel="stylesheet" href="/Users/macbook/Desktop/test/style1.css"> -->
+    <title>React App</title>
+    <!-- <script src="https://boontar.azureedge.net/js/video.js"></script> -->
+        <script type="text/javascript">
+      window.dataBoontar = [
+        {
+          rootName: 'basket',
+          page: 'basket',
+        },
+        {
+          rootName: 'root',
+          page: 'item',
+          id_item: '4773'
+          // id_event: '5151'
+        },
+        {
+          rootName: 'qwe',
+          page: 'event',
+          id_event: '7940'
+        }
+      ];
+      // boontarIframeSet({root:'root'})
+    </script>
+  </head>
+  <body>
+    <div id="basket"></div>
+    <div id="root" style="width: 500px; height: 300px"></div>
+    <div id="qwe" style="width: 500px; height: 300px"></div>
+	<script src="https://boontar.live/iframe/boontar.js" type="text/javascript"></script>
+    <!-- <script type="text/javascript" src="/Users/macbook/Desktop/test/test1.js"></script> -->
+    <!-- <script type="text/javascript" src="/Users/macbook/Desktop/test/test.js"></script> -->
+</body>
+</html>
