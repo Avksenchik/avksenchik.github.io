@@ -1,43 +1,90 @@
 <!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>App Landing Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="iframeLanding/appco/assets/img/favicon.ico">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+		<!-- CSS here -->
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/flaticon.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/slicknav.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/animate.min.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/magnific-popup.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/themify-icons.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/slick.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/nice-select.css">
+            <link rel="stylesheet" href="iframeLanding/appco/assets/css/style.css">
+            <link rel="stylesheet" href="https://boontar.live/iframe/boontar.css">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link href="https://boontar.live/iframe/boontar.css" rel="stylesheet"></link>
-  <script type="text/javascript">
-    window.dataBoontar = [
-        {
-            rootName: 'bakset',
-            page: 'basket',
-            mode: 'once'
-        },
-        {
-            rootName: 'event2',
-            page: 'event',
-            autoplay: false,
-            id_event: '10023',
-        }
-    ]
-</script>
-</head>
+            <script type="text/javascript">
+                window.dataBoontar = [
+                    {
+                        rootName: 'basket',
+                        page: 'basket',
+                        mode: 'once'
+                    },
+                    {
+                        rootName: 'event1',
+                        page: 'event',
+                        id_event: '9630',
+                        fixedItem: {
+                            '00:05': {
+                                id_item: "2743",
+                                name: "Крутой товар",
+                                photo: "https://boontarcloud.azureedge.net/photositems/mini_dHRn4ss5yEe8fblob.jpg",
+                                price: "777"
+                            },
+                            '00:15': {
+                                id_item: "4671",
+                                name: "Книга",
+                                photo: "https://boontarcloud.azureedge.net/photositems/mini_ra8GNnnTa9drAIMG_0002.JPG.jpg",
+                                price: "900"
+                            }
+                        }
+                    },
+                    // {
+                    //     rootName: 'event2',
+                    //     page: 'event',
+                    //     id_event: '7580'
+                    // },
+                    // {
+                    //     rootName: 'event3',
+                    //     page: 'event',
+                    //     id_event: '7578'
+                    // },
+                    {
+                        rootName: 'item1',
+                        page: 'item',
+                        id_item: '5100'
+                    },
+                    {
+                        rootName: 'item2',
+                        page: 'item',
+                        id_item: '5099'
+                    },
+                    {
+                        rootName: 'item3',
+                        page: 'item',
+                        id_item: '4775'
+                    },
+                    {
+                        rootName: 'item4',
+                        page: 'item',
+                        id_item: '4780'
+                    },
+                ];
+        </script>
+   </head>
 
-<body>
-    <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>   
-    <div id="basket"></div>
-    <!-- <div id="item1" style='width: 100%; height: 500px'></div> -->
-    <div id="event2" style='width: 100%; height: 800px'></div>
-    <div id="event1" style='width: 100%; height: 800px'></div>
-    <div id="event3" style='width: 100%; height: 500px'></div>
-    <div id="item1" style="width: 100%;"></div>
-    <div id="item2" style="width: 100%;"></div>
-    <div id="item3" style="width: 100%;"></div>
-   <div>
-       Hello world !!!
-    </div> 
-    <script src="https://boontar.live/iframe/boontar.js" type="text/javascript"></script>
-</body>
+   <body>
+       <div id='root'></div>
+        <script src="https://boontar.live/iframe/boontar.js" type="text/javascript"></script>
+    </body>
 </html>
